@@ -39,4 +39,6 @@ android/.idea/
 ios/App/Pods/
 ios/App/build/
 ios/App/DerivedData/
-
+# Nested mobile projects
+Humancare360/
+homecare360-shubhamnetlifyapp/
