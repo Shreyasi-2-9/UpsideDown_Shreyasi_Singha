@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="blBlueMask" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3d66fa"/>
+      <stop offset="100%" stop-color="#244be8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Full-bleed background for maskable circle/squircle crop in brand blue -->
+  <rect width="512" height="512" fill="url(#blBlueMask)"/>
+
+  <!-- Logo Graphics scaled down within safe zone (80% boundary) -->
+  <g transform="translate(51, 51) scale(0.8)">
+    <path d="M128 250L256 138L384 250V374C384 385.046 375.046 394 364 394H148C136.954 394 128 385.046 128 374V250Z" 
+          stroke="#ffffff" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <path d="M330 200V152H368V234" stroke="#ffffff" stroke-width="20" stroke-linecap="round"/>
+
+    <path d="M256 218C256 218 304 232 304 276C304 320 256 348 256 348C256 348 208 320 208 276C208 232 256 218 256 218Z" 
+          fill="#ffffff" fill-opacity="0.22" stroke="#ffffff" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <path d="M234 278L251 295L280 260" stroke="#ffffff" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

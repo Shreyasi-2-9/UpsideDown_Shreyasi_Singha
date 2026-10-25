@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    
+    <!-- Title & SEO Description -->
+    <title>HomeCare 360 · Civic & Home Service Marketplace</title>
+    <meta name="description" content="HomeCare 360 connects residents with verified municipal home-service technicians. Transparent escrow, real-time tracking, cryptographic skill passports, and multilingual voice help." />
+    
+    <!-- Theme & Color -->
+    <meta name="theme-color" content="#f5f3ee" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0c0f17" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#f5f3ee" />
+
+    <!-- PWA & Mobile Web App Capabilities -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="HomeCare 360" />
+    <meta name="application-name" content="HomeCare 360" />
+    <meta name="format-detection" content="telephone=no" />
+    
+    <!-- Icons & Manifest -->
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="/icon-512.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+    <!-- Open Graph (WhatsApp, Facebook, LinkedIn) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="HomeCare 360 · Civic & Home Service Marketplace" />
+    <meta property="og:description" content="Verified municipal home-service technicians, escrow protection, live tracking, and voice input in English, Hindi & Marathi." />
+    <meta property="og:image" content="/icon-512.png" />
+    <meta property="og:url" content="/" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="HomeCare 360 · Civic & Home Service Marketplace" />
+    <meta name="twitter:description" content="Verified municipal home-service technicians, escrow protection, live tracking, and voice input in English, Hindi & Marathi." />
+    <meta name="twitter:image" content="/icon-512.png" />
+
+    <!-- Fonts: Preconnect & Load with font-display: swap -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap"
+    />
+
+    <!-- Initial Inline Styles to Prevent White Flash & Layout Jump -->
+    <style>
+      :root {
+        --app-bg: #f5f3ee;
+        --app-ink: #252429;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --app-bg: #0c0f17;
+          --app-ink: #f0f2f7;
+        }
+      }
+      html, body {
+        margin: 0;
+        padding: 0;
+        background-color: var(--app-bg);
+        color: var(--app-ink);
+        font-family: -apple-system, BlinkMacSystemFont, 'Plus Jakarta Sans', system-ui, sans-serif;
+        -webkit-tap-highlight-color: transparent;
+        min-height: 100dvh;
+      }
+      #root {
+        min-height: 100dvh;
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>
+      <div style="font-family: sans-serif; padding: 2rem; text-align: center; background: #f5f3ee; color: #252429; min-height: 100vh;">
+        <h2>HomeCare 360</h2>
+        <p>Please enable JavaScript to access HomeCare 360 civic services app.</p>
+      </div>
+    </noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

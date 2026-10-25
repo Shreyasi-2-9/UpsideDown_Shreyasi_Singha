@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 192 192" fill="none">
+  <defs>
+    <linearGradient id="blBlueBg192" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#436bfa"/>
+      <stop offset="100%" stop-color="#244be8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Brand Blue Squircle Base -->
+  <rect width="192" height="192" rx="46" fill="url(#blBlueBg192)"/>
+  <rect x="1.5" y="1.5" width="189" height="189" rx="44.5" stroke="#ffffff" stroke-opacity="0.22" stroke-width="3"/>
+
+  <!-- House Outline -->
+  <path d="M48 94L96 52L144 94V140C144 144.418 140.418 148 136 148H56C51.5817 148 48 144.418 48 140V94Z" 
+        stroke="#ffffff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Chimney -->
+  <path d="M124 76V58H138V88" stroke="#ffffff" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- Shield -->
+  <path d="M96 82C96 82 114 87 114 103C114 119 96 130 96 130C96 130 78 119 78 103C78 87 96 82 96 82Z" 
+        fill="#ffffff" fill-opacity="0.2" stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Checkmark -->
+  <path d="M88 104L94 110L105 97" stroke="#ffffff" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
